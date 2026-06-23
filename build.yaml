@@ -1,14 +1,16 @@
 include:
   - board: xiao_ble//zmk
-    shield: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n totem_left
+    shield: totem_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: xiao_ble//zmk
-    shield: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n totem_right
+    shield: totem_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   # Flash this instead of the above to "undongle," after a `settings_reset`.
   # - board: xiao_ble//zmk
-  #   shield: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n totem_left
+  #   shield: totem_left
   # - board: xiao_ble//zmk
-  #   shield: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n totem_right
+  #   shield: totem_right
 
   - board: xiao_ble//zmk
     shield: settings_reset
