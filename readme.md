@@ -1,5 +1,11 @@
 # zmk-totem-config
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
+  <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
+</picture>
+
 Configuration for my split ergo keyboard setup:
 
 - TOTEM GEIST courtesy of [Keyboard Hoarders](https://keyboard-hoarders.com/)
@@ -13,12 +19,6 @@ Configuration for my split ergo keyboard setup:
     2. Drag and drop settings reset file onto mounted drive  
     3. Reconnect in bootloader mode
     4. Drag and drop firmware onto mounted drive
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">
-  <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
-</picture>
 
 # TOTEM GEIST
 
